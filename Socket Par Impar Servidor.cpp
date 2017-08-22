@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     }
 	else 
 	{
-		sprintf(msg, "Voce escolheu %i e eu escolhi %i! Deu Impar! Voce Perdeu!",n1,n2);
+		sprintf(msg, "Voce escolheu %i e eu escolhi %i! Deu Impar! Voce Ganhou!",n1,n2);
     }
     sendto(conexao,msg,sizeof(msg),0,(struct sockaddr *)&cliente,sizeof(cliente));
 
